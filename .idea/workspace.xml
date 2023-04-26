@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c5934ed-2599-4058-8466-e64be411ff91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/WegoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/async/EventConsumer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/async/EventConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/async/EventHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/async/EventModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/async/EventProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/async/EventType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/async/handler/CommentHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/async/handler/FollowHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/async/handler/LikeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/config/CorsConfiguration$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/config/CorsConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/config/GithubOauthConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/config/QQOauthConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/config/QuartzConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/config/WebSocketConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/ArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/CommentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/FansController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/FollowController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/GithubOauthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/LeaderBoardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/LikeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/NoticeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/QQOauthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/dao/ArticleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/dao/CategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/dao/CommentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/dao/ElasticSearchDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/dao/FansDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/dao/FollowDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/dao/NoticeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/entity/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/entity/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/entity/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/entity/Fans.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/entity/Follow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/entity/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/entity/Notice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/redis/BasePrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/redis/CommonKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/redis/FansKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/redis/FollowKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/redis/JedisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/redis/KeyPrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/redis/LikeKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/redis/UserTokenKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/redis/VerifyCodeKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/FansService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/FollowService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/LikeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/NoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/impl/ArticleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/impl/CommentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/impl/FansServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/impl/FollowServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/impl/LikeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/impl/NoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/task/AchieveValueTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/task/LikeTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/utils/CodeMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/utils/CommonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/utils/GenerateRandomCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/utils/HttpClientUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/utils/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/utils/RandomUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/utils/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/vo/ArticleUserVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/vo/CommentUserVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/wego/websocket/ChatEndPoint.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="E:\git\bin\git.exe" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="WangYuan" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\IJ\idea\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MpA9FMW0AEMHhv6Qkdu6D64nIM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "spring.configuration.checksum": "c9201e1bf6357c2995cfac6d6619e71b"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="WegoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wego" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jd.wego.WegoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c5934ed-2599-4058-8466-e64be411ff91" name="Changes" comment="" />
+      <created>1678454000818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678454000818</updated>
+      <workItem from="1678454005927" duration="1054000" />
+      <workItem from="1678456510510" duration="561000" />
+      <workItem from="1678464310332" duration="591000" />
+      <workItem from="1678514642242" duration="16900000" />
+      <workItem from="1678732493575" duration="1033000" />
+      <workItem from="1678870594894" duration="87000" />
+      <workItem from="1679043108230" duration="1064000" />
+      <workItem from="1679063335247" duration="11000" />
+      <workItem from="1679295670888" duration="11722000" />
+      <workItem from="1679839848501" duration="3678000" />
+      <workItem from="1679982773590" duration="1946000" />
+      <workItem from="1680108688916" duration="101000" />
+      <workItem from="1680171414177" duration="17642000" />
+      <workItem from="1681035944811" duration="4701000" />
+      <workItem from="1682004037708" duration="759000" />
+      <workItem from="1682262606497" duration="16000" />
+      <workItem from="1682274198207" duration="717000" />
+      <workItem from="1682404896661" duration="6995000" />
+      <workItem from="1682487755528" duration="1830000" />
+      <workItem from="1682489598551" duration="348000" />
+    </task>
+    <task id="LOCAL-00001" summary="推送项目到github">
+      <created>1682489836555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682489836555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="推送项目到github" />
+    <option name="LAST_COMMIT_MESSAGE" value="推送项目到github" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jd/wego/controller/LoginController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.RequestFacade" memberName="request" />
+        <PinnedItemInfo parentTag="jdk.proxy2.$Proxy90" memberName="h" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/wego$WegoApplication.ic" NAME="WegoApplication Coverage Results" MODIFIED="1679296019549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
