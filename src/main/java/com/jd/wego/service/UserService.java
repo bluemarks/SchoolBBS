@@ -4,10 +4,7 @@ import com.jd.wego.entity.User;
 
 import java.util.*;
 
-/**
- * @author hbquan
- * @date 2021/3/30 16:58
- */
+
 public interface UserService {
 
     void insert(User user);

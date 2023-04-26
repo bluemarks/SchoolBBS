@@ -6,10 +6,6 @@ import org.springframework.context.annotation.Configuration;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
-/**
- * @author hbquan
- * @date 2021/3/30 17:14
- */
 @Configuration
 public class RedisConfig {
 
@@ -18,7 +14,8 @@ public class RedisConfig {
 
     @Value("${spring.redis.port}")
     private int port;
-
+    @Value("${spring.redis.password}")
+    private String password;
     @Value("${spring.redis.timeout}")
     private int timeout;
 
@@ -39,7 +36,8 @@ public class RedisConfig {
         poolConfig.setMaxIdle(maxIdle);
         poolConfig.setMaxTotal(maxActive);
 
-        JedisPool jedisPool = new JedisPool(poolConfig, host, port, timeout);
+        JedisPool jedisPool = new JedisPool(poolConfig, host,port,timeout,password);
+
         return jedisPool;
     }
 

@@ -16,8 +16,6 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 
 /**
- * @author hbquan
- * @date 2021/4/14 15:54
  * 这是一个消费者，监听消息队列,如果消息队列中存在事件，则会立即消费
  */
 @Service

@@ -3,10 +3,7 @@ package com.jd.wego.utils;
 
 import java.util.Random;
 
-/**
- * @author hbquan
- * @date 2021/3/30 16:36
- */
+
 public class GenerateRandomCode {
 
     /**

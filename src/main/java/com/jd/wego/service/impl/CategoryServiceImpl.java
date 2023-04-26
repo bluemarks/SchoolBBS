@@ -8,10 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * @author hbquan
- * @date 2021/4/7 20:35
- */
+
 @Service
 public class CategoryServiceImpl implements CategoryService {
 

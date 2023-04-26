@@ -1,10 +1,7 @@
 package com.jd.wego.redis;
 
 
-/**
- * @author hbquan
- * @date 2021/3/30 20:01
- */
+
 public abstract class BasePrefix implements KeyPrefix {
 
     private int expireSeconds;

@@ -26,11 +26,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Objects;
 
 
-/**
- * @author hbquan
- * @date 2021/3/30 14:54
- */
-
 //@EnableAutoConfiguration(exclude = {MultipartAutoConfiguration.class})
 @Controller
 public class UserController {

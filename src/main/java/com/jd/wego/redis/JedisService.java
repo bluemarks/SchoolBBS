@@ -10,10 +10,7 @@ import redis.clients.jedis.ScanResult;
 
 import java.util.*;
 
-/**
- * @author hbquan
- * @date 2021/3/30 17:23
- */
+
 @Service
 public class JedisService {
 

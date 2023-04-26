@@ -1,9 +1,6 @@
 package com.jd.wego.redis;
 
-/**
- * @author hbquan
- * @date 2021/4/7 16:57
- */
+
 public class UserTokenKey extends BasePrefix {
 
     /**

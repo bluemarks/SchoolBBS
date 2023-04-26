@@ -11,9 +11,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.*;
 
 /**
- * @author hbquan
- * @date 2021/5/6 18:36
- * <p>
  * 实现排行榜的功能
  */
 @Controller

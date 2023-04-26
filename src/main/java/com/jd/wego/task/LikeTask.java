@@ -14,10 +14,7 @@ import org.springframework.stereotype.Component;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * @author hbquan
- * @date 2021/4/16 20:39
- */
+
 @Component
 public class LikeTask extends QuartzJobBean {
 

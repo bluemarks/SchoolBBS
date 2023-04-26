@@ -9,10 +9,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * @author hbquan
- * @date 2021/4/21 9:30
- */
 @Service
 public class FollowServiceImpl implements FollowService {
 

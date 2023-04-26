@@ -2,10 +2,6 @@ package com.jd.wego.config;
 
 import org.springframework.stereotype.Component;
 
-/**
- * @author hbquan
- * @date 2021/4/5 20:04
- */
 @Component
 public class QQOauthConfig {
 

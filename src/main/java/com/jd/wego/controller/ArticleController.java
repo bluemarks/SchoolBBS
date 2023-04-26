@@ -22,9 +22,6 @@ import java.util.*;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author hbquan
- * @date 2021/4/7 15:54
- * <p>
  * 设计：
  * 当用户发表一篇文章的时候，成就值+10分
  * 当用户的文章被别人点赞一次之后，成就值+5分

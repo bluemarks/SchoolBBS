@@ -18,11 +18,7 @@ import javax.websocket.server.ServerEndpoint;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
-
-/**
- * @author hbquan
- * @date 2021/5/20 13:36
- */
+//有问题
 @Component
 @ServerEndpoint(value = "/chat/{userId}")
 public class ChatEndPoint {

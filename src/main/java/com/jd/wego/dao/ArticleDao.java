@@ -6,10 +6,7 @@ import org.apache.ibatis.annotations.*;
 
 import java.util.*;
 
-/**
- * @author hbquan
- * @date 2021/4/6 14:43
- */
+
 @Mapper
 public interface ArticleDao {
 

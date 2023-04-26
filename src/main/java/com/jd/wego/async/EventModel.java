@@ -5,8 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author hbquan
- * @date 2021/4/14 14:51
  * 封装成一个完整的事件模型
  */
 public class EventModel {

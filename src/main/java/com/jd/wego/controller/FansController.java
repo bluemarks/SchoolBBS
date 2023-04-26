@@ -21,8 +21,6 @@ import java.util.*;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author hbquan
- * @date 2021/4/21 9:33
  */
 @Controller
 public class FansController {

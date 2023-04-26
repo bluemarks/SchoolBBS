@@ -7,8 +7,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author hbquan
- * @date 2021/4/16 17:24
  * 作用是：配置定时任务相关
  */
 @Configuration

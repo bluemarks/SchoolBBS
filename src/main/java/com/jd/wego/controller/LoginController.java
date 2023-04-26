@@ -24,11 +24,6 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-/**
- * @author hbquan
- * @date 2021/3/31 16:30
- */
 @RestController
 @RequestMapping("/login")
 public class LoginController {
@@ -111,15 +106,18 @@ public class LoginController {
      * 提供一个可以提供手机号+密码的方式进行登录
      */
     @GetMapping("/loginPassword")
-    public Result<CodeMsg> loginPassword(String userId, String password) {
+    public Result<CodeMsg> loginPassword(HttpServletResponse response,String userId, String password) {
+
         User user = userService.selectByUserId(userId);
+        String password1=MD5Utils.md5(password+user.getSalt());
         if (user == null) {
             return Result.error(CodeMsg.UNREGISTER_PHONE);
         }
 
-        if (!(user.getPassword().equals(MD5Utils.md5(password + user.getSalt())))) {
+        if (!(user.getPassword().equals(password1))) {
             return Result.error(CodeMsg.PASSWORD_ERROR);
         } else {
+            addCookie(response, user);
             return Result.success(CodeMsg.SUCCESS);
         }
     }
@@ -152,6 +150,7 @@ public class LoginController {
 
 
     public User getUserInfo(HttpServletRequest request) {
+        //从token中获取信息
         String token = getUserToken(request, LoginController.USER_TOKEN);
         return jedisService.getKey(UserTokenKey.userTokenKey, token, User.class);
     }

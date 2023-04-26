@@ -27,8 +27,6 @@ import java.util.Date;
 import java.util.*;
 
 /**
- * @author hbquan
- * @date 2021/4/21 9:38
  */
 @Controller
 public class FollowController {

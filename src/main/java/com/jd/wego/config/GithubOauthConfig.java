@@ -4,9 +4,6 @@ package com.jd.wego.config;
 import org.springframework.stereotype.Component;
 
 /**
- * @author hbquan
- * @date 2021/4/4 19:43
- * <p>
  * 第三方登录的原理：
  * 1.A网站让用户跳转到Github
  * 2.Github要求用户登录，然后询问A网站要求获取XX权限，你是否同意？

@@ -15,10 +15,7 @@ import java.util.*;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * @author hbquan
- * @date 2021/5/23 16:21
- */
+
 @Controller
 public class NoticeController {
 

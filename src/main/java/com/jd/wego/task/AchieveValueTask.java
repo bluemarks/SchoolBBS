@@ -13,10 +13,7 @@ import org.springframework.stereotype.Component;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * @author hbquan
- * @date 2021/5/3 23:45
- */
+
 @Component
 public class AchieveValueTask extends QuartzJobBean {
 

@@ -8,10 +8,7 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-/**
- * @author hbquan
- * @date 2021/4/17 17:34
- */
+
 public interface CommentService {
 
 

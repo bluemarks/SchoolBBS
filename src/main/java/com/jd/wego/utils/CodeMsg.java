@@ -2,10 +2,6 @@ package com.jd.wego.utils;
 
 import lombok.Data;
 
-/**
- * @author hbquan
- * @date 2021/3/30 15:59
- */
 @Data
 public class CodeMsg {
 
@@ -28,7 +24,7 @@ public class CodeMsg {
      * 登录模块错误
      */
     public static CodeMsg VERIFY_CODE_ERROR = new CodeMsg(100000, "手机验证码错误");
-    public static CodeMsg DUPLICATE_REGISTRY = new CodeMsg(100001, "手机号码重复注册");
+    public static CodeMsg DUPLICATE_REGISTRY = new CodeMsg(100001, "手机号码已注册");
     public static CodeMsg UNREGISTER_PHONE = new CodeMsg(100002, "手机号码未注册");
     public static CodeMsg PASSWORD_ERROR = new CodeMsg(100003, "登录密码错误");
     public static CodeMsg GITHUB_CODE_OR_STATE_EMPTY = new CodeMsg(100004, "Github获取code或者state为null");

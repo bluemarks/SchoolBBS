@@ -22,10 +22,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author hbquan
- * @date 2021/4/7 15:55
- */
+
 @Service
 public class ArticleServiceImpl implements ArticleService {
 

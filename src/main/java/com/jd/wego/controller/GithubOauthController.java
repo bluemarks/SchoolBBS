@@ -23,10 +23,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
-/**
- * @author hbquan
- * @date 2021/4/4 20:23
- */
 @Controller
 @RequestMapping("/oauth")
 public class GithubOauthController {

@@ -1,9 +1,6 @@
 package com.jd.wego.redis;
 
-/**
- * @author hbquan
- * @date 2021/4/21 9:51
- */
+
 public class FollowKey extends BasePrefix {
 
     public FollowKey(String prefix) {

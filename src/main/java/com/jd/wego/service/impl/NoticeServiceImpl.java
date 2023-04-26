@@ -8,10 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * @author hbquan
- * @date 2021/4/14 21:00
- */
+
 @Service
 public class NoticeServiceImpl implements NoticeService {
 

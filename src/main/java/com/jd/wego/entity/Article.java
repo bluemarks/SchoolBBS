@@ -11,12 +11,6 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import java.util.Date;
 
-/**
- * 7
- *
- * @author hbquan
- * @date 2021/4/6 14:39
- */
 @Data
 @Document(indexName = "wego", type = "_doc", createIndex = false)
 public class Article {

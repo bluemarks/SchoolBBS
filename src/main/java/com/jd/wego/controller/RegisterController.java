@@ -18,10 +18,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 ;import java.util.Date;
 
-/**
- * @author hbquan
- * @date 2021/3/30 15:48
- */
+
 @RestController
 @RequestMapping(value = "/register")
 public class RegisterController {
@@ -45,7 +42,7 @@ public class RegisterController {
 
         try {
             // 这里里面传递的参数是在腾讯云验证平台下提供的个人秘钥：SecretId, SecretKey
-            Credential cred = new Credential("AKIDMWaQ8SIQPF6g4WuqnfJwSOI9nDPRqpBf", "PbXFlQr4gQQDmeZv4w4AHBqGROnw97qI");
+            Credential cred = new Credential("", "");
             HttpProfile httpProfile = new HttpProfile();
             // 调用腾讯提供的接口
             httpProfile.setEndpoint("sms.tencentcloudapi.com");
@@ -65,12 +62,13 @@ public class RegisterController {
 
             // 这是给固定模板里面传递的验证码,注意是数组格式
             String randomCode = GenerateRandomCode.generateRandomVerificationCode();
+            log.info(randomCode);
             jedisService.setKey(VerifyCodeKey.verifyCodeKeyRegister, randomCode, randomCode);
             String[] templateParamSet1 = new String[]{randomCode};
             req.setTemplateParamSet(templateParamSet1);
 
             // 腾讯云提供的smsSdkAppid
-            req.setSmsSdkAppid("1400500804");
+            req.setSmsSdkAppid("");
 
             SendSmsResponse resp = client.SendSms(req);
             log.info(SendSmsResponse.toJsonString(resp));

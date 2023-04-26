@@ -16,10 +16,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.*;
 
-/**
- * @author hbquan
- * @date 2021/4/7 20:25
- */
 @Controller
 public class IndexController {
 

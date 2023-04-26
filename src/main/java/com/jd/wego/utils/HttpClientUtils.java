@@ -11,10 +11,7 @@ import org.apache.http.util.EntityUtils;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author hbquan
- * @date 2021/4/4 20:39
- */
+
 public class HttpClientUtils {
 
     /**

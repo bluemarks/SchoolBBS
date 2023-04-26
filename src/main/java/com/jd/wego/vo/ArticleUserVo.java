@@ -5,10 +5,7 @@ import lombok.Data;
 
 import java.util.Date;
 
-/**
- * @author hbquan
- * @date 2021/4/21 16:23
- */
+
 @Data
 public class ArticleUserVo extends Article {
 

@@ -1,8 +1,6 @@
 package com.jd.wego.async;
 
 /**
- * @author hbquan
- * @date 2021/4/14 14:46
  * 枚举类：标识事件的类型
  */
 

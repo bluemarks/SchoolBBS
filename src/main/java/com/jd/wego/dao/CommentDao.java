@@ -9,10 +9,7 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.*;
 
-/**
- * @author hbquan
- * @date 2021/4/17 17:17
- */
+
 @Mapper
 public interface CommentDao {
 

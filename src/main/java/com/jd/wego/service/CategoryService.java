@@ -4,10 +4,7 @@ import com.jd.wego.entity.Category;
 
 import java.util.List;
 
-/**
- * @author hbquan
- * @date 2021/4/7 20:34
- */
+
 public interface CategoryService {
 
     void insertCategory(Category category);

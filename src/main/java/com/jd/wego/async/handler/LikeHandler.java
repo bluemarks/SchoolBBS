@@ -19,10 +19,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @author hbquan
- * @date 2021/4/14 15:53
- */
+
 @Component
 public class LikeHandler implements EventHandler {
 

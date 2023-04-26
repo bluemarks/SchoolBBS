@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * @author hbquan
- * @date 2021/4/5 20:30
+ * bug 暂时弃用
  */
 @Controller
 @RequestMapping("/oauth")

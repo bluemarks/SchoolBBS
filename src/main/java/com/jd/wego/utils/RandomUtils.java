@@ -2,10 +2,7 @@ package com.jd.wego.utils;
 
 import java.util.Random;
 
-/**
- * @author hbquan
- * @date 2021/3/31 15:08
- */
+
 public class RandomUtils {
 
     /**

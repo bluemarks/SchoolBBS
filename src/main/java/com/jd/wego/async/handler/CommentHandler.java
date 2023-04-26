@@ -20,10 +20,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @author hbquan
- * @date 2021/4/14 19:13
- */
+
 @Component
 public class CommentHandler implements EventHandler {
 

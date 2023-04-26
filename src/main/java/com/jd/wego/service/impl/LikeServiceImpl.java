@@ -14,10 +14,6 @@ import org.springframework.util.StopWatch;
 import java.util.List;
 import java.util.Set;
 
-/**
- * @author hbquan
- * @date 2021/4/15 20:51
- */
 @Service
 public class LikeServiceImpl implements LikeService {
 

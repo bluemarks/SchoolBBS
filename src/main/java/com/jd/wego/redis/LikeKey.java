@@ -1,10 +1,5 @@
 package com.jd.wego.redis;
 
-/**
- * @author hbquan
- * @date 2021/4/14 15:38
- * 点赞的Rediskey
- */
 public class LikeKey extends BasePrefix {
 
     public LikeKey(String prefix) {

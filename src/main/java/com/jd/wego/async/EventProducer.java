@@ -7,8 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * @author hbquan
- * @date 2021/4/14 15:07
  * 这里相当于一个生产者，将封装好的EventModel事件，塞进队列中，等待消费者的消费
  */
 @Service

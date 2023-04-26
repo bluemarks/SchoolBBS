@@ -8,10 +8,7 @@ import org.apache.ibatis.annotations.Update;
 
 import java.util.*;
 
-/**
- * @author hbquan
- * @date 2021/4/14 20:51
- */
+
 @Mapper
 public interface NoticeDao {
 

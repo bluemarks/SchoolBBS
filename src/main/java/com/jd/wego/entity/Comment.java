@@ -4,10 +4,7 @@ import lombok.Data;
 
 import java.util.Date;
 
-/**
- * @author hbquan
- * @date 2021/4/17 17:12
- */
+
 @Data
 public class Comment {
 

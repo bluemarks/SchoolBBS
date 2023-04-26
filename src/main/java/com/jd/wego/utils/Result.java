@@ -2,10 +2,7 @@ package com.jd.wego.utils;
 
 import lombok.Data;
 
-/**
- * @author hbquan
- * @date 2021/3/30 14:55
- */
+
 @Data
 public class Result<T> {
 

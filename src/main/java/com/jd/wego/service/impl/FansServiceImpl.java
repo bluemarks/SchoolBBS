@@ -8,10 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * @author hbquan
- * @date 2021/4/21 9:28
- */
+
 @Service
 public class FansServiceImpl implements FansService {
 

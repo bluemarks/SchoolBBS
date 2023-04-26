@@ -5,10 +5,7 @@ import org.apache.ibatis.annotations.*;
 
 import java.util.*;
 
-/**
- * @author hbquan
- * @date 2021/4/7 20:28
- */
+
 @Mapper
 public interface CategoryDao {
 

@@ -26,10 +26,6 @@ import java.util.*;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * @author hbquan
- * @date 2021/4/17 17:11
- */
 @Controller
 public class CommentController {
 

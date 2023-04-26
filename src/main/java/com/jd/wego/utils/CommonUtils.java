@@ -1,9 +1,6 @@
 package com.jd.wego.utils;
 
-/**
- * @author hbquan
- * @date 2021/4/5 17:21
- */
+
 
 
 import java.text.SimpleDateFormat;

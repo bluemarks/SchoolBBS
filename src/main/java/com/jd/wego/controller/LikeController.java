@@ -19,10 +19,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * @author hbquan
- * @date 2021/4/15 20:30
- */
 @Controller
 public class LikeController {
 

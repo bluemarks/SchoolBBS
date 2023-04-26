@@ -18,10 +18,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @author hbquan
- * @date 2021/4/21 11:25
- */
+
 @Component
 public class FollowHandler implements EventHandler {
 

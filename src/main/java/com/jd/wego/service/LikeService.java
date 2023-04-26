@@ -3,10 +3,6 @@ package com.jd.wego.service;
 import java.util.*;
 
 
-/**
- * @author hbquan
- * @date 2021/4/15 20:41
- */
 public interface LikeService {
 
     /**
